@@ -1,0 +1,15 @@
+// переменные variables
+:root {
+
+  --White: #ffffff;
+  --Black: #000000;
+
+}
+
+// Подключение шрифтов fonts
+
+
+@import 'base/normalize';
+@import 'base/global';
+@import 'bem/**/*';
+@import 'section/**/*';

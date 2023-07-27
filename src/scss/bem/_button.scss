@@ -1,0 +1,16 @@
+.button {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 0;
+  border: none;
+  border-radius: 0;
+  max-width: max-content;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
