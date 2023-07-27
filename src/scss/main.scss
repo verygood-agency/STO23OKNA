@@ -1,12 +1,41 @@
 // переменные variables
 :root {
 
+  --Rubik: "Rubik", sans-serif;
+  --Oswald: "Oswald", sans-serif;
+
   --White: #ffffff;
   --Black: #000000;
-
+  --Dark: #1C213F;
+  --Green: #A6BF2A;
+  --Blue: #00B2D2;
+  --DarkBlue: #4680FE;
 }
 
 // Подключение шрифтов fonts
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik/Rubik-Regular.eot');
+  src: local('Rubik Regular'), local('Rubik-Regular'),
+      url('../fonts/Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+      url('../fonts/Rubik/Rubik-Regular.woff') format('woff'),
+      url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/Oswald-Medium.eot');
+  src: local('Oswald Medium'), local('Oswald-Medium'),
+      url('../fonts/Oswald/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Oswald/Oswald-Medium.woff2') format('woff2'),
+      url('../fonts/Oswald/Oswald-Medium.woff') format('woff'),
+      url('../fonts/Oswald/Oswald-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 @import 'base/normalize';
